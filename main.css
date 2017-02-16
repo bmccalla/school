@@ -1,0 +1,178 @@
+/*** sectioning elements ***/
+
+body {
+  background-color: white;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 25px;
+
+}
+
+
+header {
+  background-color: white;
+}
+
+main {
+
+}
+
+
+
+nav {
+
+}
+
+section {
+
+}
+
+aside {
+
+}
+
+
+/**** content styles ***/
+
+h1 {
+ font-family: 'Poiret One', cursive;
+font-size: 50px;
+
+}
+
+h2 {
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Fredericka the Great', cursive;
+  font-weight: 500;
+
+}
+
+h3 {
+  font-size: 70px;
+  font-family: 'Fredericka the Great', cursive;
+  text-align:  center;
+   line-height: 1.5;
+}
+
+h4 {
+ font-family: 'Poiret One', cursive;
+ font-size: 45px;
+ text-align: center;
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+
+
+ul {
+ }
+
+li {
+text-align: left;
+text-decoration: none;
+
+
+}
+
+
+table {
+
+}
+
+tr {
+
+}
+
+th {
+
+}
+
+td {
+
+}
+
+footer {
+    background-color:#74C2CB;
+    width: inherit;
+    border: 25px solid #d6e5ff;
+    padding: 25px;
+    margin: 25px;
+}
+
+
+/*** image styles ***/
+
+img  {
+
+}
+
+.sources img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+
+/*** link styles ***/
+
+
+a:link {
+color: black;
+text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+
+}
+
+a:hover {
+color:black;
+text-decoration: underline;
+
+}
+
+a:active {
+  color:grey;
+text-decoration: none;
+}
+
+/*---------------
+ Odin override
+ ----------*/
+
+ .navbar {
+   background-color: transparent;
+ }
+
+.navbar-brand {
+  color: inherit;
+font-family: 'Poiret One', cursive;
+font-style: bold;
+}
+
+.navbar-menu a:hover,
+.navbar-menu a:active {
+  border-bottom: 3px solid #f48c42;
+  text-decoration: none;
+}
